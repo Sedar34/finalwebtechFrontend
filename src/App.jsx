@@ -6,7 +6,7 @@ import TennisLogin from './pages/login'
 import TennisRegister from './pages/register'
 import ReservationManagement from './pages/reserve'
  import { Reset } from './pages/Reset'
- import AddUser from './pages/Add-user'
+ import AddUser from './pages/AddUser'
 import './App.css'
 // import SearchUser from './pages/search-user'
 
