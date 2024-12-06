@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom'
 import Index from './pages'
 import AdminDashboard from './pages/AdminDashboard'
@@ -8,7 +8,7 @@ import ReservationManagement from './pages/reserve'
  import { Reset } from './pages/Reset'
  import AddUser from './pages/Add-user'
 import './App.css'
-import SearchUser from './pages/search-user'
+// import SearchUser from './pages/search-user'
 
 
 function App() {

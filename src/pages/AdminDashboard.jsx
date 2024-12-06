@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const translations = {
@@ -75,10 +75,13 @@ const AdminDashboard = () => {
   const [notificationDropdownVisible, setNotificationDropdownVisible] = useState(false);
   const [notificationTitle, setNotificationTitle] = useState('');
   const [notificationMessage, setNotificationMessage] = useState('');
-  const [users, setUsers] = useState([]); // Placeholder for user data
-  const [currentPage, setCurrentPage] = useState(0);
-  const [totalPages, setTotalPages] = useState(1); // Placeholder for pagination
-
+  // const [users, setUsers] = useState([]); // Placeholder for user data
+  // const [currentPage, setCurrentPage] = useState(0);
+  // const [totalPages, setTotalPages] = useState(1); // Placeholder for pagination
+  const users=[];
+  const currentPage=0;
+  const totalPages=1;
+  
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
     setLanguage(savedLanguage);

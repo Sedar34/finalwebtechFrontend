@@ -1,5 +1,5 @@
 
-import React from "react";
+// import React from "react";
 const Reset = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
